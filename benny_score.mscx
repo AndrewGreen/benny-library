@@ -125,7 +125,8 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="124"/>
+          <controller ctrl="7" value="119"/>
+          <controller ctrl="10" value="77"/>
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
           <synti>Fluid</synti>
@@ -179,7 +180,8 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="127"/>
+          <controller ctrl="7" value="106"/>
+          <controller ctrl="10" value="75"/>
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
           <synti>Fluid</synti>
@@ -203,10 +205,10 @@
         <bracket type="-1" span="0"/>
         <barLineSpan>0</barLineSpan>
         </Staff>
-      <trackName>Acoustic Guitar</trackName>
+      <trackName>Comp</trackName>
       <Instrument>
-        <longName>Acoustic Guitar</longName>
-        <shortName>Guit.</shortName>
+        <longName>Comp</longName>
+        <shortName>Comp</shortName>
         <trackName>Acoustic Guitar</trackName>
         <minPitchP>40</minPitchP>
         <maxPitchP>83</maxPitchP>
@@ -252,10 +254,10 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <controller ctrl="0" value="1"/>
-          <controller ctrl="32" value="13"/>
-          <program value="21"/>
-          <controller ctrl="7" value="104"/>
+          <controller ctrl="32" value="5"/>
+          <program value="4"/>
+          <controller ctrl="7" value="41"/>
+          <controller ctrl="10" value="34"/>
           <controller ctrl="93" value="50"/>
           <controller ctrl="91" value="127"/>
           <synti>Fluid</synti>
@@ -270,16 +272,16 @@
         <defaultClef>F8vb</defaultClef>
         <bracket type="-1" span="0"/>
         </Staff>
-      <trackName>Electric Bass</trackName>
+      <trackName>Bass</trackName>
       <Instrument>
-        <longName>Electric Bass</longName>
-        <shortName>El. B.</shortName>
-        <trackName>Electric Bass</trackName>
-        <minPitchP>28</minPitchP>
-        <maxPitchP>65</maxPitchP>
+        <longName>Bass</longName>
+        <shortName>Bass</shortName>
+        <trackName>Acoustic Bass</trackName>
+        <minPitchP>23</minPitchP>
+        <maxPitchP>67</maxPitchP>
         <minPitchA>28</minPitchA>
-        <maxPitchA>65</maxPitchA>
-        <instrumentId>pluck.bass.electric</instrumentId>
+        <maxPitchA>62</maxPitchA>
+        <instrumentId>pluck.bass.acoustic</instrumentId>
         <clef>F8vb</clef>
         <StringData>
           <frets>24</frets>
@@ -318,9 +320,17 @@
           </Articulation>
         <Channel>
           <controller ctrl="32" value="12"/>
-          <program value="38"/>
-          <controller ctrl="7" value="127"/>
-          <controller ctrl="91" value="32"/>
+          <program value="32"/>
+          <controller ctrl="7" value="113"/>
+          <controller ctrl="10" value="54"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="arco">
+          <program value="43"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="tremolo">
+          <program value="44"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -3049,7 +3059,57 @@
         </Measure>
       <Measure number="2">
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>half</durationType>
+          <Note>
+            <Tie id="43">
+              </Tie>
+            <pitch>61</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <Tie id="44">
+              </Tie>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          <Note>
+            <Tie id="45">
+              </Tie>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <Tie id="46">
+              </Tie>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <endSpanner id="43"/>
+            <pitch>61</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <endSpanner id="44"/>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          <Note>
+            <endSpanner id="45"/>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <endSpanner id="46"/>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
           <Note>
             <pitch>61</pitch>
             <tpc>21</tpc>
@@ -3059,8 +3119,27 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>21</tpc>
+            </Note>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          <Note>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           <Note>
             <pitch>76</pitch>
@@ -3080,8 +3159,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           <Note>
             <pitch>76</pitch>
@@ -3145,7 +3224,82 @@
         </Measure>
       <Measure number="6">
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>half</durationType>
+          <Note>
+            <Tie id="47">
+              </Tie>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <Tie id="48">
+              </Tie>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <Tie id="49">
+              </Tie>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <Tie id="50">
+              </Tie>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <endSpanner id="47"/>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <endSpanner id="48"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <endSpanner id="49"/>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <endSpanner id="50"/>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <velocity>-30</velocity>
+            </Note>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -3196,28 +3350,20 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="43">
-              </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Tie id="44">
-              </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <velocity>-30</velocity>
             </Note>
           <Note>
-            <Tie id="45">
-              </Tie>
             <pitch>71</pitch>
             <tpc>19</tpc>
             <velocity>-30</velocity>
             </Note>
           <Note>
-            <Tie id="46">
-              </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3226,24 +3372,20 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="43"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="44"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <velocity>-10</velocity>
             </Note>
           <Note>
-            <endSpanner id="45"/>
             <pitch>71</pitch>
             <tpc>19</tpc>
             <velocity>-10</velocity>
             </Note>
           <Note>
-            <endSpanner id="46"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3251,25 +3393,25 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="47">
+            <Tie id="51">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="48">
+            <Tie id="52">
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
-            <Tie id="49">
+            <Tie id="53">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="50">
+            <Tie id="54">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -3280,22 +3422,22 @@
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="47"/>
+            <endSpanner id="51"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="48"/>
+            <endSpanner id="52"/>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
-            <endSpanner id="49"/>
+            <endSpanner id="53"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="50"/>
+            <endSpanner id="54"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3317,8 +3459,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             <velocity>-30</velocity>
             </Note>
           </Chord>
@@ -3333,8 +3475,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -3349,8 +3491,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             <velocity>20</velocity>
             </Note>
           </Chord>
@@ -3366,8 +3508,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             <velocity>-10</velocity>
             </Note>
           </Chord>
@@ -3383,8 +3525,8 @@
             <tpc>18</tpc>
             </Note>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             <velocity>5</velocity>
             </Note>
           </Chord>
@@ -3393,20 +3535,20 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="51">
+            <Tie id="55">
               </Tie>
             <pitch>61</pitch>
             <tpc>21</tpc>
             <velocity>30</velocity>
             </Note>
           <Note>
-            <Tie id="52">
+            <Tie id="56">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <Tie id="53">
+            <Tie id="57">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -3416,18 +3558,18 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="51"/>
+            <endSpanner id="55"/>
             <pitch>61</pitch>
             <tpc>21</tpc>
             <velocity>10</velocity>
             </Note>
           <Note>
-            <endSpanner id="52"/>
+            <endSpanner id="56"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="57"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             <velocity>10</velocity>
@@ -3620,25 +3762,25 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="54">
+            <Tie id="58">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="55">
+            <Tie id="59">
               </Tie>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
-            <Tie id="56">
+            <Tie id="60">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="57">
+            <Tie id="61">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -3649,22 +3791,22 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="54"/>
+            <endSpanner id="58"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="55"/>
+            <endSpanner id="59"/>
             <pitch>66</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
-            <endSpanner id="56"/>
+            <endSpanner id="60"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="57"/>
+            <endSpanner id="61"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3997,14 +4139,14 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="58">
+            <Tie id="62">
               </Tie>
             <pitch>43</pitch>
             <tpc>15</tpc>
             <velocity>-30</velocity>
             </Note>
           <Note>
-            <Tie id="59">
+            <Tie id="63">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4015,13 +4157,13 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="58"/>
+            <endSpanner id="62"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             <velocity>-10</velocity>
             </Note>
           <Note>
-            <endSpanner id="59"/>
+            <endSpanner id="63"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             <velocity>-10</velocity>
@@ -4030,13 +4172,13 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="60">
+            <Tie id="64">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="61">
+            <Tie id="65">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -4047,12 +4189,12 @@
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="60"/>
+            <endSpanner id="64"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="61"/>
+            <endSpanner id="65"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4063,126 +4205,51 @@
           <durationType>eighth</durationType>
           </Rest>
         <Chord>
-          <durationType>eighth</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <Note>
+            <Tie id="66">
+              </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             <velocity>-30</velocity>
             </Note>
           <Note>
+            <Tie id="67">
+              </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
             <velocity>-30</velocity>
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
+            <endSpanner id="66"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             <velocity>20</velocity>
             </Note>
           <Note>
+            <endSpanner id="67"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             <velocity>20</velocity>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <velocity>-10</velocity>
-            </Note>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <velocity>-10</velocity>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <velocity>5</velocity>
-            </Note>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <velocity>5</velocity>
             </Note>
           </Chord>
         </Measure>
       <Measure number="11">
         <Chord>
-          <durationType>half</durationType>
+          <durationType>whole</durationType>
           <Note>
-            <Tie id="62">
-              </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             <velocity>30</velocity>
             </Note>
           <Note>
-            <Tie id="63">
-              </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
             <velocity>30</velocity>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <endSpanner id="62"/>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <velocity>10</velocity>
-            </Note>
-          <Note>
-            <endSpanner id="63"/>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <velocity>10</velocity>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <velocity>-30</velocity>
-            </Note>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <velocity>-30</velocity>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <velocity>-30</velocity>
-            </Note>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <velocity>-30</velocity>
             </Note>
           </Chord>
         </Measure>
@@ -4284,13 +4351,13 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="64">
+            <Tie id="68">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="65">
+            <Tie id="69">
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -4301,12 +4368,12 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="64"/>
+            <endSpanner id="68"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="65"/>
+            <endSpanner id="69"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4703,7 +4770,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="66">
+            <Tie id="70">
               </Tie>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -4715,7 +4782,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="66"/>
+            <endSpanner id="70"/>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4929,7 +4996,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="67">
+            <Tie id="71">
               </Tie>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -4941,7 +5008,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="67"/>
+            <endSpanner id="71"/>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4993,7 +5060,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="68">
+            <Tie id="72">
               </Tie>
             <pitch>33</pitch>
             <tpc>17</tpc>
@@ -5005,7 +5072,7 @@
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="68"/>
+            <endSpanner id="72"/>
             <pitch>33</pitch>
             <tpc>17</tpc>
             </Note>
@@ -5049,7 +5116,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="69">
+            <Tie id="73">
               </Tie>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -5060,7 +5127,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="69"/>
+            <endSpanner id="73"/>
             <pitch>31</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5108,7 +5175,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="70">
+            <Tie id="74">
               </Tie>
             <pitch>28</pitch>
             <tpc>18</tpc>
@@ -5117,7 +5184,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="70"/>
+            <endSpanner id="74"/>
             <pitch>28</pitch>
             <tpc>18</tpc>
             </Note>
@@ -5155,7 +5222,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="71">
+            <Tie id="75">
               </Tie>
             <pitch>33</pitch>
             <tpc>17</tpc>
@@ -5166,9 +5233,9 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="72">
+            <Tie id="76">
               </Tie>
-            <endSpanner id="71"/>
+            <endSpanner id="75"/>
             <pitch>33</pitch>
             <tpc>17</tpc>
             </Note>
@@ -5176,7 +5243,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="72"/>
+            <endSpanner id="76"/>
             <pitch>33</pitch>
             <tpc>17</tpc>
             </Note>
@@ -5220,7 +5287,7 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="73">
+            <Tie id="77">
               </Tie>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -5231,7 +5298,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="73"/>
+            <endSpanner id="77"/>
             <pitch>31</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5279,7 +5346,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="74">
+            <Tie id="78">
               </Tie>
             <pitch>28</pitch>
             <tpc>18</tpc>
@@ -5288,7 +5355,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="74"/>
+            <endSpanner id="78"/>
             <pitch>28</pitch>
             <tpc>18</tpc>
             </Note>
