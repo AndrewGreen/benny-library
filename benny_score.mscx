@@ -125,7 +125,7 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="127"/>
+          <controller ctrl="7" value="97"/>
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
           <synti>Fluid</synti>
@@ -179,7 +179,7 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="103"/>
+          <controller ctrl="7" value="83"/>
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
           <synti>Fluid</synti>
@@ -319,7 +319,7 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="38"/>
-          <controller ctrl="7" value="114"/>
+          <controller ctrl="7" value="111"/>
           <controller ctrl="91" value="32"/>
           <synti>Fluid</synti>
           </Channel>
@@ -333,7 +333,7 @@
           <text>Benny Notes 5</text>
           </Text>
         </VBox>
-      <Measure number="1" len="1/8">
+      <Measure number="1">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -346,6 +346,15 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Rest>
+          <durationType>half</durationType>
+          </Rest>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -473,9 +482,19 @@
         </Measure>
       <Measure number="4">
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <text>card's</text>
+            <text>card</text>
+            </Lyrics>
+          <Note>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>is</text>
             </Lyrics>
           <Note>
             <pitch>45</pitch>
@@ -1099,8 +1118,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>sum</text>
+            <text>seeds</text>
             </Lyrics>
           <Note>
             <pitch>54</pitch>
@@ -1108,10 +1126,9 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text>mer</text>
+            <text>in</text>
             </Lyrics>
           <Note>
             <pitch>52</pitch>
@@ -1121,7 +1138,17 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>seeds,</text>
+            <text>the</text>
+            </Lyrics>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>wind,</text>
             </Lyrics>
           <Note>
             <Tie id="6">
@@ -1527,7 +1554,7 @@
         </Measure>
       </Staff>
     <Staff id="2">
-      <Measure number="1" len="1/8">
+      <Measure number="1">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -1540,6 +1567,15 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Rest>
+          <durationType>half</durationType>
+          </Rest>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1664,9 +1700,19 @@
         </Measure>
       <Measure number="4">
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <text>card's</text>
+            <text>card</text>
+            </Lyrics>
+          <Note>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>is</text>
             </Lyrics>
           <Note>
             <pitch>40</pitch>
@@ -2290,8 +2336,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>sum</text>
+            <text>seeds</text>
             </Lyrics>
           <Note>
             <pitch>50</pitch>
@@ -2299,10 +2344,9 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text>mer</text>
+            <text>in</text>
             </Lyrics>
           <Note>
             <pitch>47</pitch>
@@ -2312,7 +2356,17 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>seeds,</text>
+            <text>the</text>
+            </Lyrics>
+          <Note>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>wind,</text>
             </Lyrics>
           <Note>
             <Tie id="21">
@@ -2468,7 +2522,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>30960</tick>
+        <tick>32640</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2514,7 +2568,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>32880</tick>
+        <tick>34560</tick>
         <Chord>
           <track>5</track>
           <durationType>whole</durationType>
@@ -2557,7 +2611,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>34800</tick>
+        <tick>36480</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2612,7 +2666,7 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <tick>36720</tick>
+        <tick>38400</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2649,7 +2703,7 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <tick>38640</tick>
+        <tick>40320</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2697,7 +2751,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>40560</tick>
+        <tick>42240</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2753,7 +2807,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>42480</tick>
+        <tick>44160</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2809,7 +2863,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>44400</tick>
+        <tick>46080</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2864,7 +2918,7 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <tick>46320</tick>
+        <tick>48000</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2901,7 +2955,7 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <tick>48240</tick>
+        <tick>49920</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2975,7 +3029,7 @@
         </Measure>
       </Staff>
     <Staff id="3">
-      <Measure number="1" len="1/8">
+      <Measure number="1">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -2989,7 +3043,8 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>eighth</durationType>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="2">
@@ -3818,7 +3873,7 @@
         </Measure>
       </Staff>
     <Staff id="4">
-      <Measure number="1" len="1/8">
+      <Measure number="1">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -3832,7 +3887,8 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>eighth</durationType>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="2">
@@ -4424,7 +4480,7 @@
         </Measure>
       </Staff>
     <Staff id="5">
-      <Measure number="1" len="1/8">
+      <Measure number="1">
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
@@ -4434,7 +4490,8 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>eighth</durationType>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
           </Rest>
         </Measure>
       <Measure number="2">
