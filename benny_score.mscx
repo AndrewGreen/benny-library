@@ -125,10 +125,11 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="97"/>
+          <controller ctrl="7" value="124"/>
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -179,11 +180,10 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="83"/>
+          <controller ctrl="7" value="127"/>
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -256,7 +256,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="13"/>
           <program value="21"/>
-          <controller ctrl="7" value="55"/>
+          <controller ctrl="7" value="49"/>
           <controller ctrl="93" value="50"/>
           <controller ctrl="91" value="127"/>
           <synti>Fluid</synti>
@@ -4593,16 +4593,19 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <pitch>35</pitch>
-            <tpc>19</tpc>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>31</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>33</pitch>
-            <tpc>17</tpc>
+            <pitch>31</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -4816,16 +4819,19 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <pitch>35</pitch>
-            <tpc>19</tpc>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>31</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>33</pitch>
-            <tpc>17</tpc>
+            <pitch>31</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
