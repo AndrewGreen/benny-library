@@ -183,6 +183,7 @@
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -255,7 +256,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="13"/>
           <program value="21"/>
-          <controller ctrl="7" value="64"/>
+          <controller ctrl="7" value="55"/>
           <controller ctrl="93" value="50"/>
           <controller ctrl="91" value="127"/>
           <synti>Fluid</synti>
@@ -1118,7 +1119,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>seeds</text>
+            <syllabic>begin</syllabic>
+            <text>Sum</text>
             </Lyrics>
           <Note>
             <pitch>54</pitch>
@@ -1126,9 +1128,10 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
-            <text>in</text>
+            <syllabic>end</syllabic>
+            <text>mer</text>
             </Lyrics>
           <Note>
             <pitch>52</pitch>
@@ -1138,17 +1141,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>the</text>
-            </Lyrics>
-          <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>wind,</text>
+            <text>seeds,</text>
             </Lyrics>
           <Note>
             <Tie id="6">
@@ -2336,7 +2329,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>seeds</text>
+            <syllabic>begin</syllabic>
+            <text>Sum</text>
             </Lyrics>
           <Note>
             <pitch>50</pitch>
@@ -2344,9 +2338,10 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
-            <text>in</text>
+            <syllabic>end</syllabic>
+            <text>mer</text>
             </Lyrics>
           <Note>
             <pitch>47</pitch>
@@ -2356,17 +2351,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>the</text>
-            </Lyrics>
-          <Note>
-            <pitch>47</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>wind,</text>
+            <text>seeds,</text>
             </Lyrics>
           <Note>
             <Tie id="21">
@@ -4608,11 +4593,8 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>31</pitch>
-            <tpc>15</tpc>
+            <pitch>35</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -4834,11 +4816,8 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>31</pitch>
-            <tpc>15</tpc>
+            <pitch>35</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
