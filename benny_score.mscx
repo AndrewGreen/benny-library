@@ -129,7 +129,6 @@
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -256,7 +255,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="13"/>
           <program value="21"/>
-          <controller ctrl="7" value="49"/>
+          <controller ctrl="7" value="104"/>
           <controller ctrl="93" value="50"/>
           <controller ctrl="91" value="127"/>
           <synti>Fluid</synti>
@@ -320,7 +319,7 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="38"/>
-          <controller ctrl="7" value="111"/>
+          <controller ctrl="7" value="127"/>
           <controller ctrl="91" value="32"/>
           <synti>Fluid</synti>
           </Channel>
@@ -334,7 +333,7 @@
           <text>Benny Notes 5</text>
           </Text>
         </VBox>
-      <Measure number="1">
+      <Measure number="1" len="1/8">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -347,15 +346,17 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <Rest>
-          <durationType>half</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
+        <Tempo>
+          <tempo>2.26667</tempo>
+          <followText>1</followText>
+          <text><sym>unicodeNoteQuarterUp</sym> = 136</text>
+          </Tempo>
+        <StaffText>
+          <swing unit="eighth" ratio= "65"/>
+          <pos x="-3.51353" y="-6.66543"/>
+          <style>Tempo</style>
+          <text>Swing</text>
+          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1540,6 +1541,18 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="36">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="37">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -1547,7 +1560,7 @@
         </Measure>
       </Staff>
     <Staff id="2">
-      <Measure number="1">
+      <Measure number="1" len="1/8">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -1560,15 +1573,6 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <Rest>
-          <durationType>half</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -2507,7 +2511,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>32640</tick>
+        <tick>30960</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2553,7 +2557,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>34560</tick>
+        <tick>32880</tick>
         <Chord>
           <track>5</track>
           <durationType>whole</durationType>
@@ -2596,7 +2600,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>36480</tick>
+        <tick>34800</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2651,7 +2655,7 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <tick>38400</tick>
+        <tick>36720</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2688,7 +2692,7 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <tick>40320</tick>
+        <tick>38640</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2736,7 +2740,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>42240</tick>
+        <tick>40560</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2792,7 +2796,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>44160</tick>
+        <tick>42480</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2848,7 +2852,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <tick>46080</tick>
+        <tick>44400</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2903,7 +2907,7 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <tick>48000</tick>
+        <tick>46320</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -2940,7 +2944,7 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <tick>49920</tick>
+        <tick>48240</tick>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
@@ -3007,6 +3011,18 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="36">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="37">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -3014,7 +3030,7 @@
         </Measure>
       </Staff>
     <Staff id="3">
-      <Measure number="1">
+      <Measure number="1" len="1/8">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -3028,8 +3044,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="2">
@@ -3851,6 +3866,18 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="36">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="37">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>2</span>
@@ -3858,7 +3885,7 @@
         </Measure>
       </Staff>
     <Staff id="4">
-      <Measure number="1">
+      <Measure number="1" len="1/8">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -3872,8 +3899,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="2">
@@ -4463,9 +4489,21 @@
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
+      <Measure number="36">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="37">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
       </Staff>
     <Staff id="5">
-      <Measure number="1">
+      <Measure number="1" len="1/8">
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
@@ -4475,8 +4513,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>eighth</durationType>
           </Rest>
         </Measure>
       <Measure number="2">
@@ -5300,6 +5337,18 @@
           </Rest>
         </Measure>
       <Measure number="35">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="36">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="37">
         <Rest>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
