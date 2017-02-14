@@ -144,10 +144,10 @@
           <text>Swing</text>
           </StaffText>
         <Tempo>
-          <tempo>2.26667</tempo>
+          <tempo>1.33333</tempo>
           <followText>1</followText>
           <pos x="-1.92967" y="-5.18334"/>
-          <text><sym>unicodeNoteQuarterUp</sym> = 136</text>
+          <text><sym>unicodeNoteQuarterUp</sym> = 80</text>
           </Tempo>
         <Chord>
           <durationType>half</durationType>
