@@ -125,11 +125,12 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="119"/>
+          <controller ctrl="7" value="104"/>
           <controller ctrl="10" value="77"/>
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -180,11 +181,12 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="104"/>
+          <controller ctrl="7" value="95"/>
           <controller ctrl="10" value="75"/>
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -235,10 +237,11 @@
           </Articulation>
         <Channel>
           <program value="68"/>
-          <controller ctrl="7" value="37"/>
+          <controller ctrl="7" value="27"/>
           <controller ctrl="93" value="127"/>
           <controller ctrl="91" value="81"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -289,10 +292,11 @@
           </Articulation>
         <Channel>
           <program value="68"/>
-          <controller ctrl="7" value="28"/>
+          <controller ctrl="7" value="31"/>
           <controller ctrl="93" value="127"/>
           <controller ctrl="91" value="85"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -355,7 +359,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="13"/>
           <program value="21"/>
-          <controller ctrl="7" value="70"/>
+          <controller ctrl="7" value="57"/>
           <controller ctrl="91" value="112"/>
           <synti>Fluid</synti>
           </Channel>
@@ -421,7 +425,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="13"/>
           <program value="21"/>
-          <controller ctrl="7" value="72"/>
+          <controller ctrl="7" value="68"/>
           <controller ctrl="91" value="98"/>
           <synti>Fluid</synti>
           </Channel>
@@ -4312,11 +4316,8 @@
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -4368,8 +4369,8 @@
           <Note>
             <Tie id="53">
               </Tie>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           <Note>
             <Tie id="54">
@@ -4384,8 +4385,8 @@
           <durationType>whole</durationType>
           <Note>
             <endSpanner id="53"/>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           <Note>
             <endSpanner id="54"/>
@@ -4454,11 +4455,8 @@
             <tpc>16</tpc>
             </Note>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -4510,8 +4508,8 @@
           <Note>
             <Tie id="57">
               </Tie>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           <Note>
             <Tie id="58">
@@ -4526,8 +4524,8 @@
           <durationType>whole</durationType>
           <Note>
             <endSpanner id="57"/>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           <Note>
             <endSpanner id="58"/>
