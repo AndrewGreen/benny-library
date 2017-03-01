@@ -493,7 +493,7 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="32"/>
-          <controller ctrl="7" value="93"/>
+          <controller ctrl="7" value="84"/>
           <controller ctrl="10" value="54"/>
           <synti>Fluid</synti>
           </Channel>
@@ -793,11 +793,10 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="12"/>
           <program value="5"/>
-          <controller ctrl="7" value="78"/>
+          <controller ctrl="7" value="70"/>
           <controller ctrl="93" value="32"/>
           <controller ctrl="91" value="117"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -6934,18 +6933,11 @@
         </Measure>
       <Measure number="32">
         <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>26</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <Tie id="88">
               </Tie>
-            <pitch>38</pitch>
+            <pitch>26</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -6954,7 +6946,7 @@
           <durationType>quarter</durationType>
           <Note>
             <endSpanner id="88"/>
-            <pitch>38</pitch>
+            <pitch>26</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
