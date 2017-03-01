@@ -3563,8 +3563,8 @@
             <Tie id="30">
               <track>5</track>
               </Tie>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -3603,8 +3603,8 @@
           <Note>
             <track>5</track>
             <endSpanner id="30"/>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -3848,8 +3848,8 @@
             <Tie id="44">
               <track>5</track>
               </Tie>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -3888,8 +3888,8 @@
           <Note>
             <track>5</track>
             <endSpanner id="44"/>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
