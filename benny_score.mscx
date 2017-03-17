@@ -312,7 +312,7 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="32"/>
-          <controller ctrl="7" value="70"/>
+          <controller ctrl="7" value="81"/>
           <controller ctrl="10" value="54"/>
           <synti>Fluid</synti>
           </Channel>
@@ -2626,8 +2626,8 @@
             <text>Please</text>
             </Lyrics>
           <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2637,8 +2637,8 @@
             <text>re</text>
             </Lyrics>
           <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2772,8 +2772,8 @@
             <text>It's</text>
             </Lyrics>
           <Note>
-            <pitch>49</pitch>
-            <tpc>21</tpc>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -3099,8 +3099,8 @@
             <text>trump</text>
             </Lyrics>
           <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -3110,8 +3110,8 @@
             <text>et</text>
             </Lyrics>
           <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
