@@ -265,14 +265,14 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument>
-        <longName>Bass</longName>
-        <shortName>Bass</shortName>
-        <trackName>Acoustic Bass</trackName>
-        <minPitchP>23</minPitchP>
-        <maxPitchP>67</maxPitchP>
+        <longName>Electric Bass</longName>
+        <shortName>El. B.</shortName>
+        <trackName>Electric Bass</trackName>
+        <minPitchP>28</minPitchP>
+        <maxPitchP>65</maxPitchP>
         <minPitchA>28</minPitchA>
-        <maxPitchA>62</maxPitchA>
-        <instrumentId>pluck.bass.acoustic</instrumentId>
+        <maxPitchA>65</maxPitchA>
+        <instrumentId>pluck.bass.electric</instrumentId>
         <clef>F8vb</clef>
         <StringData>
           <frets>24</frets>
@@ -312,16 +312,6 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="32"/>
-          <controller ctrl="7" value="81"/>
-          <controller ctrl="10" value="54"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="arco">
-          <program value="43"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <program value="44"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
