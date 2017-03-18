@@ -337,6 +337,8 @@
         <maxPitchP>65</maxPitchP>
         <minPitchA>28</minPitchA>
         <maxPitchA>65</maxPitchA>
+        <transposeDiatonic>-7</transposeDiatonic>
+        <transposeChromatic>-12</transposeChromatic>
         <instrumentId>pluck.bass.electric</instrumentId>
         <clef>F8vb</clef>
         <StringData>
@@ -4499,14 +4501,72 @@
         </Measure>
       <Measure number="5">
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="6">
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="7">
@@ -4540,10 +4600,6 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>49</pitch>
-            <tpc>21</tpc>
-            </Note>
-          <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -4551,8 +4607,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -4569,12 +4625,8 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -4587,9 +4639,24 @@
         </Measure>
       <Measure number="12">
         <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           </Rest>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="13">
         <Rest>
@@ -5401,6 +5468,10 @@
       </Staff>
     <Staff id="7">
       <Measure number="1">
+        <Clef>
+          <concertClefType>F8vb</concertClefType>
+          <transposingClefType>F8vb</transposingClefType>
+          </Clef>
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
