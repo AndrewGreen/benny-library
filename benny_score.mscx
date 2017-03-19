@@ -255,7 +255,7 @@
         <Channel>
           <controller ctrl="32" value="12"/>
           <program value="32"/>
-          <controller ctrl="7" value="80"/>
+          <controller ctrl="7" value="79"/>
           <controller ctrl="10" value="92"/>
           <controller ctrl="93" value="127"/>
           <controller ctrl="91" value="58"/>
@@ -2252,6 +2252,12 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -3851,6 +3857,12 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -4309,6 +4321,12 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -4734,6 +4752,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>57</pitch>
@@ -4741,7 +4760,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4795,6 +4814,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>56</pitch>
@@ -4802,7 +4822,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -4960,6 +4980,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>57</pitch>
@@ -4967,7 +4988,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5025,6 +5046,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>56</pitch>
@@ -5032,7 +5054,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -5225,6 +5247,12 @@
           </Rest>
         </Measure>
       <Measure number="45">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="46">
         <Rest>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
@@ -5513,6 +5541,12 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -5797,6 +5831,12 @@
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
           </Rest>
+        </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
@@ -6062,25 +6102,19 @@
         </Measure>
       <Measure number="9">
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -6939,6 +6973,12 @@
           </Rest>
         </Measure>
       <Measure number="45">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="46">
         <Rest>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
@@ -9385,6 +9425,12 @@
           <duration z="4" n="4"/>
           </Rest>
         </Measure>
+      <Measure number="46">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
       </Staff>
     <Staff id="9">
       <Measure number="1">
@@ -10341,6 +10387,12 @@
           </Rest>
         </Measure>
       <Measure number="45">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="46">
         <Rest>
           <durationType>measure</durationType>
           <duration z="4" n="4"/>
