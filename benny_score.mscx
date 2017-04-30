@@ -7116,7 +7116,7 @@
           </Chord>
         <Chord>
           <lid>1240</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1241</lid>
             <endSpanner id="63"/>
@@ -7124,10 +7124,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1242</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="2">
         <Chord>
@@ -7154,7 +7150,7 @@
           </Chord>
         <Chord>
           <lid>1248</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1249</lid>
             <endSpanner id="64"/>
@@ -7162,10 +7158,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1250</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="3">
         <Chord>
@@ -7192,7 +7184,7 @@
           </Chord>
         <Chord>
           <lid>1256</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1257</lid>
             <endSpanner id="65"/>
@@ -7200,10 +7192,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1258</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="4">
         <Chord>
@@ -7230,7 +7218,7 @@
           </Chord>
         <Chord>
           <lid>1264</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1265</lid>
             <endSpanner id="66"/>
@@ -7238,10 +7226,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1266</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="5">
         <Chord>
@@ -7271,6 +7255,7 @@
           </Chord>
         <Chord>
           <lid>1272</lid>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <lid>1273</lid>
@@ -7279,10 +7264,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1274</lid>
-          <durationType>eighth</durationType>
-          </Rest>
         <Chord>
           <lid>1275</lid>
           <durationType>eighth</durationType>
@@ -7318,7 +7299,7 @@
           </Chord>
         <Chord>
           <lid>1282</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1283</lid>
             <endSpanner id="68"/>
@@ -7326,10 +7307,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1284</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="7">
         <Chord>
@@ -7356,7 +7333,7 @@
           </Chord>
         <Chord>
           <lid>1290</lid>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>1291</lid>
             <endSpanner id="69"/>
@@ -7364,10 +7341,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <lid>1292</lid>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="8">
         <Chord>
@@ -19485,7 +19458,7 @@
             </Chord>
           <Chord>
             <lid>1240</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1241</lid>
               <endSpanner id="158"/>
@@ -19493,10 +19466,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1242</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="2">
           <Chord>
@@ -19523,7 +19492,7 @@
             </Chord>
           <Chord>
             <lid>1248</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1249</lid>
               <endSpanner id="159"/>
@@ -19531,10 +19500,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1250</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="3">
           <Chord>
@@ -19561,7 +19526,7 @@
             </Chord>
           <Chord>
             <lid>1256</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1257</lid>
               <endSpanner id="160"/>
@@ -19569,10 +19534,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1258</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="4">
           <Chord>
@@ -19599,7 +19560,7 @@
             </Chord>
           <Chord>
             <lid>1264</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1265</lid>
               <endSpanner id="161"/>
@@ -19607,10 +19568,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1266</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="5">
           <Chord>
@@ -19640,6 +19597,7 @@
             </Chord>
           <Chord>
             <lid>1272</lid>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <lid>1273</lid>
@@ -19648,10 +19606,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1274</lid>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <lid>1275</lid>
             <durationType>eighth</durationType>
@@ -19687,7 +19641,7 @@
             </Chord>
           <Chord>
             <lid>1282</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1283</lid>
               <endSpanner id="163"/>
@@ -19695,10 +19649,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1284</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="7">
           <Chord>
@@ -19725,7 +19675,7 @@
             </Chord>
           <Chord>
             <lid>1290</lid>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <lid>1291</lid>
               <endSpanner id="164"/>
@@ -19733,10 +19683,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <lid>1292</lid>
-            <durationType>quarter</durationType>
-            </Rest>
           </Measure>
         <Measure number="8">
           <Chord>
