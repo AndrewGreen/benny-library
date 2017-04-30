@@ -126,7 +126,7 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="91"/>
+          <controller ctrl="7" value="115"/>
           <controller ctrl="10" value="77"/>
           <controller ctrl="93" value="42"/>
           <controller ctrl="91" value="77"/>
@@ -187,7 +187,7 @@
           </Articulation>
         <Channel>
           <program value="17"/>
-          <controller ctrl="7" value="72"/>
+          <controller ctrl="7" value="105"/>
           <controller ctrl="10" value="75"/>
           <controller ctrl="93" value="46"/>
           <controller ctrl="91" value="39"/>
@@ -710,10 +710,10 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Tempo>
-          <tempo>2.36667</tempo>
+          <tempo>2.53333</tempo>
           <followText>1</followText>
           <lid>6</lid>
-          <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+          <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
           </Tempo>
         <Rest>
           <lid>7</lid>
@@ -12282,7 +12282,7 @@
             <tempo>2.36667</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <lid>7</lid>
@@ -12301,10 +12301,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -14464,7 +14464,7 @@
             <tempo>2.36667</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <lid>416</lid>
@@ -14483,10 +14483,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -17264,10 +17264,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <lid>919</lid>
@@ -18571,7 +18571,7 @@
             <tempo>2.36667</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <lid>1136</lid>
@@ -18590,10 +18590,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -19456,10 +19456,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Chord>
             <lid>1235</lid>
@@ -21224,10 +21224,10 @@
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Tempo>
-            <tempo>2.36667</tempo>
+            <tempo>2.6</tempo>
             <followText>1</followText>
             <lid>6</lid>
-            <text><sym>unicodeNoteQuarterUp</sym> = 142</text>
+            <text><sym>unicodeNoteQuarterUp</sym> = 152</text>
             </Tempo>
           <Rest>
             <lid>1520</lid>
