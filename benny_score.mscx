@@ -202,12 +202,12 @@
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         <bracket type="-1" span="0"/>
-        <distOffset>0.645035</distOffset>
+        <distOffset>0.65</distOffset>
         </Staff>
-      <trackName>Pizz. Violins</trackName>
+      <trackName>Pizz. violins</trackName>
       <Instrument>
-        <longName>Pizz. Violins</longName>
-        <shortName>Pz. Vlns.</shortName>
+        <longName>Pizz. violins</longName>
+        <shortName>Pz. vlns.</shortName>
         <trackName>Acoustic Guitar</trackName>
         <minPitchP>40</minPitchP>
         <maxPitchP>83</maxPitchP>
@@ -277,10 +277,10 @@
         <defaultClef>F</defaultClef>
         <distOffset>0.161259</distOffset>
         </Staff>
-      <trackName>Wah violins</trackName>
+      <trackName>Arco violins</trackName>
       <Instrument>
-        <longName>Wah violins</longName>
-        <shortName>W. Vlns.</shortName>
+        <longName>Arco violins</longName>
+        <shortName>A. violins</shortName>
         <trackName>Oboe</trackName>
         <minPitchP>58</minPitchP>
         <maxPitchP>93</maxPitchP>
@@ -335,8 +335,8 @@
         </Staff>
       <trackName>Bass</trackName>
       <Instrument>
-        <longName>Electric Bass</longName>
-        <shortName>El. B.</shortName>
+        <longName>Bass</longName>
+        <shortName>Bass</shortName>
         <trackName>Electric Bass</trackName>
         <minPitchP>28</minPitchP>
         <maxPitchP>65</maxPitchP>
@@ -452,12 +452,12 @@
           </StaffType>
         <defaultClef>PERC</defaultClef>
         <bracket type="-1" span="0"/>
-        <distOffset>0.260075</distOffset>
+        <distOffset>0.26</distOffset>
         </Staff>
-      <trackName>Book Percussion</trackName>
+      <trackName>Book percussion</trackName>
       <Instrument>
-        <longName>Book Percussion</longName>
-        <shortName>Book P.</shortName>
+        <longName>Book percussion</longName>
+        <shortName>B. perc.</shortName>
         <trackName>Drumset</trackName>
         <instrumentId>drum.group.set</instrumentId>
         <useDrumset>1</useDrumset>
